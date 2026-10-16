@@ -353,7 +353,7 @@
     modalOverlay.innerHTML = `
         <div class="modal-content">
             <div class="modal-icon">${ICONS.hammer}</div>
-            <h2>Web Inspector</h2>
+            <h2>Jelly Web Inspector</h2>
             <p>A beautifully designed tool for inspecting web pages. Includes DOM, Console, Network, and Storage tools.</p>
             <button class="btn-primary" id="btn-continue">Continue</button>
         </div>
