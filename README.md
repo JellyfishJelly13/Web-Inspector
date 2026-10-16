@@ -1,6 +1,6 @@
 # Jelly Web Inspector
 
-A lightweight, read-only web inspector that can be embedded into any website with a single script tag.
+A powerful, beautifully designed tool for inspecting web pages. Includes DOM, Console, Network, and Storage tools.
 
 ## Usage
 
