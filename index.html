@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jellyfish Web Inspector Test</title>
+    <style>
+        body { font-family: sans-serif; padding: 2rem; background: #fafafa; }
+        .box { padding: 1rem; border: 1px solid #ccc; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Test Page</h1>
+    <p>Press <strong>Alt + J</strong> or use the floating button in the bottom right.</p>
+    <div class="box" id="sample-dom">
+        <p class="highlight">This is a sample DOM node.</p>
+    </div>
+    
+    <script>
+        // Generate some sample data for the inspector to discover
+        console.log("Welcome to the test page!");
+        console.warn("This is a warning.");
+        localStorage.setItem("testKey", "testValue");
+        sessionStorage.setItem("sessionData", JSON.stringify({ active: true }));
+        document.cookie = "theme=dark; path=/";
+        fetch('https://jsonplaceholder.typicode.com/todos/1'); // trigger network
+    </script>
+    <!-- Inject the Inspector -->
+    <script src="/web-inspector.js"></script>
+</body>
+</html>
