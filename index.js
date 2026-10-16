@@ -1,7 +1,7 @@
-/**
+/*
  * Jelly Web Inspector
- * A lightweight, read-only web inspector that can be embedded into any website with a single script tag.
- * https://jelly-web-inspector.vercel.app/index.js
+ * Copyright © 2026 Jellyfish Jelly
+ * SPDX-License-Identifier: MIT
  */
 
 (function () {
