@@ -1,6 +1,6 @@
-# Jelly Web Inspector
+# <p align="center">Jelly Web Inspector</p>
 
-A powerful, beautifully designed tool for inspecting web pages. Includes DOM, Console, Network, and Storage tools.
+<p align="center">A powerful, beautifully designed tool for inspecting web pages. Includes DOM, Console, Network, and Storage tools.</p>
 
 ## Usage
 
